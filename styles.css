@@ -36,3 +36,116 @@ input {
 img {
 	max-width: 300px;
 }
+
+.heading-con {
+	margin-top: 15px;
+	background-color: seashell;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 15px;
+}
+
+.profile-img {
+	border-radius: 360%;
+	max-width: 200px;	
+}
+
+.h1 {
+	font-style: italic;
+	font-family: fantasy;
+
+}
+
+.p-con {
+	border: 1px black;
+	border-style: dotted;
+	padding: 15px;
+}
+
+.main-con {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	background-color: skyblue;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sec-con {
+	background-color: thistle;
+	display: flex;
+	justify-content: space-around;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-bottom: 10px;
+}
+
+.footer {
+	background-color: cadetblue;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+.form-con {
+	margin-left: 20px;
+}
+
+.btn-con {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+	background-color: gray;
+}
+
+.fav-buttons {
+	height: 80px;
+	width: 120px;
+	border-radius: 5%;
+	font-size: larger;
+}
+
+.fav-buttons:hover {
+	animation: none;
+	cursor: pointer;
+}
+
+.fav-buttons {
+	width: 100px;
+	height: 100px;
+	background-color: yellow;
+  }
+
+  .fav-buttons:hover {
+	  color: orangered;
+  }
+
+  
+  .button-con {
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  padding: 50px;
+	}
+	
+	#food-button {
+		font-size: 80px;
+		height: 20vh;
+		border: 3px yellow;
+		border-style: solid;
+		animation-name: example;
+		animation-duration: 1s;
+		animation-iteration-count: infinite;
+	}
+
+	@keyframes example {
+		0%   {background-color: red;}
+		25%  {background-color: purple;}
+		50%  {background-color: blue;}
+		100% {background-color: green;}
+	}
+
+	#food-button:hover {
+		cursor: pointer;
+		color: orange;
+	}
+	
